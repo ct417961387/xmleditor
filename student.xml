@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<extension point="org.eclipse.ui.editors">
+      <editor
+            name="Sample"
+            extensions="xml"
+            icon="icons/sample.gif"
+            contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor"
+            class="org.my.eclipse.xmleditor.editors.XMLEditor"
+            id="org.my.eclipse.xmleditor.editors.XMLEditor">
+            <student>
+            	<teacher></teacher>
+            </student>
+      </editor>
+ </extension>
